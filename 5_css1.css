@@ -1,0 +1,83 @@
+/* ---------- Page background & base text ---------- */
+body {
+    background-color: #bfe3ee; /* light blue background */
+    font-family: Georgia, "Times New Roman", serif;
+    margin: 0;
+    padding: 0 20px;
+    color: #000;
+}
+
+/* ---------- Main header ---------- */
+h1 {
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+    margin: 30px 0 20px;
+}
+
+/* ---------- Section header ---------- */
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0 10px;
+}
+
+/* ---------- General paragraphs ---------- */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+
+/* ---------- Second paragraph (boxed) ---------- */
+#paragraph2 {
+    width: 75%;
+    margin: 20px auto;
+    padding: 20px 30px;
+    border: 4px solid #118000; /* green border */
+    background-color: #ffffff;
+    line-height: 1.6;
+}
+
+/* ---------- 4th & 5th paragraphs ---------- */
+p.blue {
+    background-color: #00008b; /* dark blue */
+    color: #ffffff;
+    padding: 18px 20px;
+    margin: 20px 0;
+}
+
+/* ---------- Links ---------- */
+a {
+    color: #0000cc; /* default link blue */
+}
+/* ---------- Lists ---------- */
+ol {
+    list-style-type: decimal-leading-zero; /* two-digit numbering */
+    margin-left: 40px;
+}
+
+ol li a {
+    color: #0000cc;
+}
+
+/* ---------- Tables ---------- */
+table {
+    width: 100%;
+    border-collapse: collapse; /* overlapping borders */
+    margin: 20px 0;
+}
+
+th {
+    background-color: #4f81bd; /* header blue */
+    color: #ffffff;
+    padding: 10px;
+    border: 2px solid #000;
+    text-align: left;
+}
+
+td {
+    background-color: #dbe5f1; /* lighter cell background */
+    padding: 10px;
+    border: 2px solid #000;
+}
